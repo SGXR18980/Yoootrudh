@@ -1,0 +1,12 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+    Name = "",
+    LoadingSubTitle = game.Players.LocalPlayer.Name,
+    LoadingTitle = "SGXR CLAN SCRIPT",
+    ConfigurationSaving = {
+       Enabled = false
+    }
+})
+Create auto farm tab
+local Tab = Window:CreateTab("Auto farm", "dumbbell")
