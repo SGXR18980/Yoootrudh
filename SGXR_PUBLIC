@@ -47,21 +47,6 @@ elseif syn and syn.request then
 end
 
 
-
-
-local WhitelistedUsers = {
-  "FREE36262626262",--Whitelisted
-}
-
-local function isWhitelisted(username)
-  for , whitelisted in ipairs(WhitelistedUsers) do 
-    if username == whitelisted then
-      loadstring(Game:HttpGet(Link here)()
-    end
-  end
-  return false
-end
-
 Rayfield:
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
@@ -72,3 +57,4 @@ local Window = Rayfield:CreateWindow({
        Enabled = false
     }
 })
+    
